@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Navigation, Drawer, Content, Header } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
@@ -19,6 +19,7 @@ function App() {
 
         <Drawer title="Portfolio">
           <Navigation>
+            <Link to="/landingpage">Zubair</Link>
             <Link to="/resume">My Resume</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/projects">Projects</Link>
