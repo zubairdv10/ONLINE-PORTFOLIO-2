@@ -16,6 +16,7 @@ function App() {
             <Link to="/contact">Contact Info</Link>
           </Navigation>
         </Header>
+
         <Drawer title="Portfolio">
           <Navigation>
             <Link to="/resume">My Resume</Link>
