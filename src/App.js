@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header className="header-color" title="Zubair De vries" scroll>
+        <Header className="header-color" title="My Portfolio" scroll>
           <Navigation>
             <Link to="/resume">My Resume</Link>
             <Link to="/aboutme">About Me</Link>

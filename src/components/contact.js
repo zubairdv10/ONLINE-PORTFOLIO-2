@@ -8,14 +8,14 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Zubair De vries</h2>
+            <h2>Aspiring Web Developer</h2>
             <img
               src={Picture}
               alt="Avatar"
               style={{ height: "280px", width: "30%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Aspiring Web Developer
+              Feel free to give me a call or send me a message
             </p>
           </Cell>
           <Cell col={6}>

@@ -79,7 +79,7 @@
   width: 95%;
   height: 590px;
   background: white;
-  color: black;
+  color: red;
 
   margin-bottom: 20px;
 }
@@ -102,4 +102,17 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+}
+
+/*About Me*/
+.about-right-col {
+  background: black;
+  color: white;
+  padding: 2em;
+}
+
+.about-background {
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
 }

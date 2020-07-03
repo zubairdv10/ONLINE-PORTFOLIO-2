@@ -10,7 +10,7 @@ class Landing extends Component {
           <Cell col={12}>
             <img src={Picture} alt="Avatar" className="avatar-img" />
             <div className="banner-text">
-              <h1>Full-Stack Web Developer</h1>
+              <h1>Zubair De vries</h1>
 
               <hr />
 
