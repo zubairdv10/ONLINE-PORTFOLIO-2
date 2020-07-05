@@ -6,10 +6,8 @@ import {
   Cell,
   Card,
   CardActions,
-  CardMenu,
   CardTitle,
   Button,
-  IconButton,
   CardText,
 } from "react-mdl";
 
@@ -51,9 +49,6 @@ class Projects extends Component {
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
-            <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
@@ -84,9 +79,6 @@ class Projects extends Component {
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
-            <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
@@ -109,24 +101,85 @@ class Projects extends Component {
               >
                 <Button colored>GitHub</Button>
               </a>
-              <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is HTML/CSS</h1>
+        <div className="projects-grid">
+          <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "280px",
+                background:
+                  "url(https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png) center / cover",
+              }}
+            >
+              HTML Project
+            </CardTitle>
+            <CardText>This is a Contact project</CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/zubairdv10/HTML-and-CSS-project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2)
       return (
-        <div>
-          <h1>This is Python</h1>
+        <div className="projects-grid">
+          <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "280px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover",
+              }}
+            >
+              Python Project #1
+            </CardTitle>
+            <CardText>This is a Lotto project</CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/zubairdv10/PYTHON"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "280px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover",
+              }}
+            >
+              Python Project #2
+            </CardTitle>
+            <CardText>This is a Login project</CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/zubairdv10/PythonProject2"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
   }
