@@ -28,8 +28,12 @@ class Resume extends Component {
               className="HR"
             />
             <Testmonials
-              co_worker="Ariya(Group Leader/Mentor) -"
-              statement="dummy text"
+              co_worker="Godwin Dzvapatsva (Head of Curriculum and Learning) -"
+              statement="Zubair  has a gentle personality and has shown great interest in programming as displayed by his steady progress. He has good determination to succeed."
+            />
+            <Testmonials
+              co_worker="Joshua Davids (Peer and Frontend Developer) -"
+              statement="Zubair is a hardworking individual, who strives to achieve his goals, he shown commitment toward his projects. With critical thinking and a keen eye for design he has shown great improvement under pressure and the ability to work in a group and alone"
             />
             <Testmonials
               co_worker="Jaabir Esau -"
