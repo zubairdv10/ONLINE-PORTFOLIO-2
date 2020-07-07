@@ -45,6 +45,11 @@ class AboutMe extends Component {
               yearEnd={2018}
               schoolName="South Peninsula High School"
             />
+            <MyEducation
+              yearStart={2020}
+              yearEnd={2020}
+              schoolName="Life Choices Coding Academy"
+            />
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
 
             <h2>Hobbies</h2>

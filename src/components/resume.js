@@ -28,19 +28,24 @@ class Resume extends Component {
               className="HR"
             />
             <Testmonials
+              co_worker="Ariya(Group Leader/Mentor) -"
+              statement="dummy text"
+            />
+            <Testmonials
               co_worker="Jaabir Esau -"
-              statement="To whom it may concern 
-
-
-Its a great privilege to work with Zubair. He is one aspiring man
-
-Zubair has exponential talent in his work and ethics. He has brought the best out of his team members.
-
-I truly would recommend Zubair to any working environment."
+              statement="To whom it may concern it's a great privilege to work with Zubair. He is one aspiring man , Zubair has exponential talent in his work and ethics. He has brought the best out of his team members.I truly would recommend Zubair to any working environment."
             />
             <Testmonials
               co_worker="Imtiyaaz Temoore -"
               statement="Zubair De vries is one of the most hardworking learners at lifechoice academy, he always make sure that he does his best and nothing but best"
+            />
+            <Testmonials
+              co_worker="Sajjaad Francis -"
+              statement="You're a hard working individual who excels at everything you do, I am sure you'll be a valuable asset to any and every company out there"
+            />
+            <Testmonials
+              co_worker="Usama Gierdien -"
+              statement="Zubair, one of the most talented individuals I've ever encountered. With extreme determination , he make sure that he completes his task and that it's 100% proper. Very hardworking as well , very often working through the night as I have witnessed this for myself."
             />
           </Cell>
         </Grid>
