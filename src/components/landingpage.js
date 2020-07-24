@@ -23,8 +23,6 @@ class Landing extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-
-                <i class="fa fa-whatsapp" aria-hidden="true"></i>
               </div>
             </div>
           </Cell>

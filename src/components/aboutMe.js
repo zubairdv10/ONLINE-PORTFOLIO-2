@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import MyEducation from "./myEducation";
 import Hobbies from "./hobbies";
 
 class AboutMe extends Component {
@@ -33,26 +32,9 @@ class AboutMe extends Component {
             </p>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
           </Cell>
-          <Cell className="about-right-col" col={8}>
-            <h2>Education</h2>
-            <MyEducation
-              yearStart={2007}
-              yearEnd={2013}
-              schoolName="Sunlands Primary School"
-            />
-            <MyEducation
-              yearStart={2014}
-              yearEnd={2018}
-              schoolName="South Peninsula High School"
-            />
-            <MyEducation
-              yearStart={2020}
-              yearEnd={2020}
-              schoolName="Life Choices Coding Academy"
-            />
-            <hr style={{ borderTop: "3px solid white", width: "100%" }} />
 
-            <h2>Hobbies</h2>
+          <Cell className="about-right-col" col={8}>
+            <h2 className="font1">Hobbies</h2>
             <Hobbies
               Hobby={
                 <img

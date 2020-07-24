@@ -12,15 +12,16 @@ function App() {
           className="header-color"
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
-              My Portfolio (click me first)
+              My Portfolio
             </Link>
           }
           scroll
         >
           <Navigation>
-            <Link to="/resume">My Resume</Link>
             <Link to="/aboutme">About Me</Link>
+            <Link to="/resume">My Resume</Link>
             <Link to="/projects">Projects</Link>
+            <Link to="/Testamonials2">Testamonials</Link>
             <Link to="/contact">Contact Info</Link>
           </Navigation>
         </Header>

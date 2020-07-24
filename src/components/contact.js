@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import Picture from "./pic.png";
 
 class Contact extends Component {
   render() {
@@ -8,18 +7,14 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Aspiring Web Developer</h2>
-            <img
-              src={Picture}
-              alt="Avatar"
-              style={{ height: "280px", width: "30%" }}
-            />
+            <h2 className="font1-1">Aspiring Web Developer</h2>
+
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Feel free to give me a call or send me a message
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2 className="font1-1">Contact Me</h2>
             <hr />
 
             <div className="contact-list">

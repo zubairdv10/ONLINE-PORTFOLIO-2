@@ -100,8 +100,12 @@
 }
 
 .contact-list i {
-  font-size: 66px;
+  font-size: 50px;
   padding-right: 5rem;
+}
+
+.font1-1 {
+  font-size: 40px;
 }
 
 /*About Me*/
@@ -137,11 +141,21 @@
   height: 100%;
 }
 .cell-Background {
-  background: white;
+  background: black;
 }
 
 .HR {
-  border-top: 5px line black;
+  border-top: 5px line white;
   width: 70%;
   margin: auto;
+}
+
+.font1 {
+  font-size: 40px;
+  color: white;
+}
+
+.font2 {
+  font-size: 30px;
+  color: white;
 }

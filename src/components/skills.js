@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={12}>
+        <Cell col={12} className="font2">
           <div>
             {this.props.skill}
             {this.props.number}

@@ -6,9 +6,9 @@ class Testamonials extends Component {
     return (
       <Grid>
         <Cell col={4}>
-          <p style={{ fontSize: "30px" }}>{this.props.co_worker}</p>
+          <p className="font2">{this.props.co_worker} </p>
         </Cell>
-        <Cell col={8}>
+        <Cell col={8} className="font1">
           <h4 style={{ marginTop: "0px" }}>{this.props.statement}</h4>
         </Cell>
       </Grid>
