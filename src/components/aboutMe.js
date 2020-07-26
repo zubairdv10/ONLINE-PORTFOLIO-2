@@ -30,7 +30,24 @@ class AboutMe extends Component {
               willing to try new things and go to places I've never been , I
               think of it as a kind of adventure
             </p>
+
+            <h4 style={{ color: "white" }}>Where my interest came from:</h4>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
+            <p>
+              I've never known how a person makes games or websites and I always
+              wanted to find out , I did a tech support course last year but
+              that didn't work out , i was interested in what they were doing
+              but it just wasn't what I wanted to do , but one day my friend
+              came to my house and we spoke and he showed me what his doing at
+              university , I was intrigued, he showed the different coding
+              languages and did examples of a few , I told him I had to apply to
+              a course that does this , but unfortunately no university accepted
+              and then I came across Life Choices Academy and I knew this was my
+              chance to get a little taste of what coding is and how it works ,
+              by my surprise I learnt allot more that I bargained for and I am
+              really happy that they accepted me and showed the different
+              languages and how to code.
+            </p>
           </Cell>
 
           <Cell className="about-right-col" col={8}>
