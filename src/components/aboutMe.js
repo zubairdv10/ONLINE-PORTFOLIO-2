@@ -55,7 +55,7 @@ class AboutMe extends Component {
             <Hobbies
               Hobby={
                 <img
-                  src="https://cdn.pixabay.com/photo/2019/01/29/20/41/sport-3963248_1280.jpg"
+                  src="https://thumbs.dreamstime.com/b/rugby-ball-icon-dark-background-label-rugby-ball-icon-178556999.jpg"
                   alt=""
                   className="img"
                 />
@@ -65,7 +65,7 @@ class AboutMe extends Component {
             <Hobbies
               Hobby={
                 <img
-                  src="https://cdn.pixabay.com/photo/2017/05/19/14/09/ps4-2326616_1280.jpg"
+                  src="https://previews.123rf.com/images/pxlprostudio/pxlprostudio1904/pxlprostudio190401940/120469142-gaming-icon-on-background-for-graphic-and-web-design-simple-vector-sign-internet-concept-symbol-for-.jpg"
                   alt=""
                   className="img"
                 />
@@ -75,7 +75,7 @@ class AboutMe extends Component {
             <Hobbies
               Hobby={
                 <img
-                  src="https://cdn.pixabay.com/photo/2014/08/23/23/19/library-425730_1280.jpg"
+                  src="https://www.pngkit.com/png/detail/233-2331668_get-reading-icon.png"
                   alt=""
                   className="img"
                 />
@@ -86,7 +86,7 @@ class AboutMe extends Component {
             <Hobbies
               Hobby={
                 <img
-                  src="https://cdn.pixabay.com/photo/2013/02/09/04/23/swimmers-79592_1280.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8SNMGUy6MGfbM1K4RR7uSs7rRsMLLC4jUaw&usqp=CAU"
                   alt=""
                   className="img"
                 />
