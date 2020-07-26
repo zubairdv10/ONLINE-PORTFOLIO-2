@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Skills from "./skills";
 import MyEducation from "./myEducation";
+import Company from "./company";
 
 class Resume extends Component {
   render() {
@@ -9,7 +10,7 @@ class Resume extends Component {
       <div className="div-Background">
         <Grid>
           <Cell style={{ width: "100%" }} className="cell-Background">
-            <h1 className="font1">Education</h1>
+            <h1 className="font2">Education</h1>
             <hr
               style={{ borderTop: "3px solid white", width: "90%" }}
               className="HR"
@@ -34,7 +35,22 @@ class Resume extends Component {
         </Grid>
         <Grid>
           <Cell style={{ width: "100%" }} className="cell-Background">
-            <h1 className="font1">Skills</h1>
+            <h1 className="font2">Work Experience</h1>
+            <hr
+              style={{ borderTop: "3px solid white", width: "90%" }}
+              className="HR"
+            />
+            <Company
+              company="Beit-Ul-Amaan"
+              duties=" My duties included : I had to serve the residents breakfast, lunch and supper.
+            I had to interact with them , like playing a game of chess or just getting to know them in
+            general.There were sometimes when I had to wash dishes or hang up washing.I went on walks with some of residents around the neighborhood for some exercise"
+            />
+          </Cell>
+        </Grid>
+        <Grid>
+          <Cell style={{ width: "100%" }} className="cell-Background">
+            <h1 className="font2">Skills</h1>
             <hr
               style={{ borderTop: "3px solid white", width: "90%" }}
               className="HR"
