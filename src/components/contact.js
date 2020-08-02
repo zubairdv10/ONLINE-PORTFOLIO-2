@@ -51,7 +51,12 @@ class Contact extends Component {
                     style={{ fontSize: "45px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope-square" aria-hidden="true" />
-                    zubairdevries127@gmail.com
+                    <a
+                      href="mailto:zubairdevries127@gmail.com"
+                      className="mailto"
+                    >
+                      zubairdevries127@gmail.com
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>

@@ -108,6 +108,10 @@
   font-size: 40px;
 }
 
+.mailto {
+  color: black;
+}
+
 /*About Me*/
 .about-right-col {
   background: black;
