@@ -103,6 +103,36 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
+
+          <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "280px",
+                background:
+                  "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
+              }}
+            >
+              React Project #4
+            </CardTitle>
+            <CardText>This is a Chatting app</CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/zubairdv10/Final-Project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+              <a
+                href="https://5f1dc697e0fedb82c336cbc7--hopeful-beaver-144e30.netlify.app/"
+                // eslint-disable-next-line
+                target="_blank"
+              >
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
