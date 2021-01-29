@@ -14,7 +14,7 @@ class Landing extends Component {
 
               <hr />
 
-              <p>HTML/CSS || React || Python || JavaScript</p>
+              <p>HTML/CSS || React || Python || JavaScript || WordPress</p>
               <div className="social-links">
                 <a
                   href="https://github.com/zubairdv10"
