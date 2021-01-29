@@ -8,7 +8,7 @@ class Testamonials2 extends Component {
       <div className="div-Background">
         <Grid>
           <Cell style={{ width: "100%" }} className="cell-Background">
-            <h1 className="font1">Testamonials</h1>
+            <h1 className="font1">Testimonials</h1>
             <hr
               style={{ borderTop: "3px solid white", width: "90%" }}
               className="HR"

@@ -46,6 +46,10 @@ class Resume extends Component {
             I had to interact with them , like playing a game of chess or just getting to know them in
             general.There were sometimes when I had to wash dishes or hang up washing.I went on walks with some of residents around the neighborhood for some exercise"
             />
+            <Company
+              company="Life Choices Studios"
+              duties="Frontend web design and WordPress site building"
+            />
           </Cell>
         </Grid>
         <Grid>
@@ -74,6 +78,11 @@ class Resume extends Component {
               skill={<h2 className="font2">JavaScript</h2>}
               progress={70}
               number={70}
+            />
+            <Skills
+              skill={<h2 className="font2">WordPress</h2>}
+              progress={85}
+              number={85}
             />
           </Cell>
         </Grid>
