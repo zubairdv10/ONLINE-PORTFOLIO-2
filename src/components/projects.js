@@ -26,12 +26,12 @@ class Projects extends Component {
                 color: "black",
                 height: "280px",
                 background:
-                  "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
+                  "url(https://repository-images.githubusercontent.com/201285961/937d5100-e144-11e9-9286-699d727d95ad) center / cover",
               }}
             >
-              React Project #1
+              Github Finder
             </CardTitle>
-            <CardText>This is a GitHub Finder React project</CardText>
+            <CardText>This is a GitHub Finder made with React</CardText>
             <CardActions border>
               <a
                 href="https://github.com/zubairdv10/React-project"
@@ -57,12 +57,12 @@ class Projects extends Component {
                 color: "black",
                 height: "280px",
                 background:
-                  "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
+                  "url(https://cdn3.f-cdn.com//files/download/112987293/8f646a.jpg) center / cover",
               }}
             >
-              React Project #2
+              Contact Keeper
             </CardTitle>
-            <CardText>This is a Contact Keeper React project</CardText>
+            <CardText>This is a Contact Keeper made with React</CardText>
             <CardActions border>
               <a
                 href="https://github.com/zubairdv10/Contact-Keeper"
@@ -87,12 +87,12 @@ class Projects extends Component {
                 color: "black",
                 height: "280px",
                 background:
-                  "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
+                  "url(https://camo.githubusercontent.com/90e3174d4ccc00e68eebec577d56a256bf7f8ad6bfccf6236a7148eefa58c82f/68747470733a2f2f692e696d6775722e636f6d2f46484f444249322e676966) center / cover",
               }}
             >
-              React Project #3
+              IT Logger
             </CardTitle>
-            <CardText>This is a IT-Logger react project</CardText>
+            <CardText>This is a IT-Logger made with react</CardText>
             <CardActions border>
               <a
                 href="https://github.com/zubairdv10/IT-Logger"
@@ -113,7 +113,7 @@ class Projects extends Component {
                   "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
               }}
             >
-              React Project #4
+              Chatting app
             </CardTitle>
             <CardText>This is a Chatting app</CardText>
             <CardActions border>
