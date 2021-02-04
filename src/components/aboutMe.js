@@ -7,7 +7,7 @@ class AboutMe extends Component {
     return (
       <div className="about-background">
         <Grid>
-          <Cell col={4}>
+          <Cell col={6}>
             <div style={{ textAlign: "center" }}>
               <img
                 src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_1280.png"
@@ -50,7 +50,7 @@ class AboutMe extends Component {
             </p>
           </Cell>
 
-          <Cell className="about-right-col" col={8}>
+          <Cell className="about-right-col" col={6}>
             <h2 className="font1">Hobbies</h2>
             <Hobbies
               Hobby={
