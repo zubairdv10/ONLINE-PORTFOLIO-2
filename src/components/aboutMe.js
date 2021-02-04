@@ -7,7 +7,7 @@ class AboutMe extends Component {
     return (
       <div className="about-background">
         <Grid>
-          <Cell col={6}>
+          <Cell col={7}>
             <div style={{ textAlign: "center" }}>
               <img
                 src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_1280.png"
@@ -19,7 +19,7 @@ class AboutMe extends Component {
             <h2 style={{ paddingTop: "2em" }}>Zubair De vries</h2>
             <h4 style={{ color: "white" }}>Jr Web Developer</h4>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
-            <p>
+            <p style={{ fontSize:"20px", fontFamily:"system-ui"}}>
               Hi there, my name is Zubair I am 19 years old and this is my
               online portfolio . I would describe myself as a soft and gentle
               person , I'm always willing to help when I'm needed or even
@@ -33,7 +33,7 @@ class AboutMe extends Component {
 
             <h4 style={{ color: "white" }}>Where my interest came from:</h4>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
-            <p>
+            <p style={{ fontSize:"20px" , fontFamily:"system-ui"}}>
               I've never known how a person makes games or websites and I always
               wanted to find out , I did a tech support course last year but
               that didn't work out , i was interested in what they were doing
@@ -50,7 +50,7 @@ class AboutMe extends Component {
             </p>
           </Cell>
 
-          <Cell className="about-right-col" col={6}>
+          <Cell className="about-right-col" col={5}>
             <h2 className="font1">Hobbies</h2>
             <Hobbies
               Hobby={

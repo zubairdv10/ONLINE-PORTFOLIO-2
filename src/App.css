@@ -116,7 +116,7 @@
 .about-right-col {
   background: black;
   color: white;
-  padding: 2em;
+  padding: 1em;
 }
 
 .about-background {
@@ -163,7 +163,7 @@
 .font1 h4{
   font-size: 20px;
   color: white;
-  position: left-align;
+  text-align: left;
 }
 
 
@@ -191,13 +191,13 @@
 .font2 h4 {
   font-size: 25px;
   color: white;
-  position: left-align
+  text-align: left
 }
 
 .font2 p {
   font-size: 25px;
   color: white;
-  position: left-align
+  text-align: left
 }
 
 
