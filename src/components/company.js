@@ -5,7 +5,7 @@ class company extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={4} className="font1">
+        <Cell col={4} className="font4">
           <p>{this.props.company}</p>
         </Cell>
         <Cell col={8} className="font2">

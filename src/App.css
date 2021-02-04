@@ -159,10 +159,34 @@
   color: white;
 }
 
+
+.font1 p{
+  font-size: 20px;
+  color: white;
+}
+
+.font4{
+  font-size: 30px;
+  color: white;
+}
+
+.font4 p{
+  font-size: 20px;
+  color: white;
+}
+
 .font2 {
   font-size: 25px;
   color: white;
+  position: left-align
 }
+.font2 h4 {
+  font-size: 25px;
+  color: white;
+  position: left-align
+}
+
+
 
 .font3 {
   font-size: 20px;

@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell style={{ width: "100%" }} className="cell-Background">
             <h1 className="font2">Education</h1>
             <hr
-              style={{ borderTop: "3px solid white", width: "90%" }}
+              style={{ borderTop: "3px solid white", width: "95%" }}
               className="HR"
             />
             <MyEducation

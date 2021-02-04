@@ -10,9 +10,8 @@ class MyEducation extends Component {
             {this.props.yearStart} - {this.props.yearEnd}
           </p>
         </Cell>
-        <Cell col={8} className="font1">
+        <Cell col={8} className="font4">
           <h4 style={{ marginTop: "0px" }}>{this.props.schoolName}</h4>
-          <p>{this.props.schoolDisc}</p>
         </Cell>
       </Grid>
     );
