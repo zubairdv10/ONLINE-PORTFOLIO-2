@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="demo-big-content">
-      <Layout>
-        <Header
+      <Layout >
+        <Header 
           className="header-color"
           title={
             <Link
-              style={{ textDecoration: "none", color: "white" }}
-              to="/ONLINE-PORTFOLIO-2/"
+              style={{ textDecoration: "none", color: "white"}}
+              to="/ONLINE-PORTFOLIO-2/" className="letters"
             >
               My Portfolio
             </Link>
           }
           scroll
         >
-          <Navigation>
+          <Navigation className="letters">
             <Link to="/aboutme">About Me</Link>
             <Link to="/resume">My Resume</Link>
             <Link to="/projects">Projects</Link>

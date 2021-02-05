@@ -10,11 +10,11 @@ class Landing extends Component {
           <Cell col={12}>
             <img src={Picture} alt="Avatar" className="avatar-img" />
             <div className="banner-text">
-              <h1>Zubair De vries</h1>
+              <h1 className="letters">Zubair De vries</h1>
 
               <hr />
 
-              <p>HTML/CSS || React || Python || JavaScript || WordPress</p>
+              <p className="letters">HTML/CSS || React || Python || JavaScript || WordPress</p>
               <div className="social-links">
                 <a
                   href="https://github.com/zubairdv10"

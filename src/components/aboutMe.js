@@ -16,10 +16,10 @@ class AboutMe extends Component {
               />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>Zubair De vries</h2>
-            <h4 style={{ color: "white" }}>Jr Web Developer</h4>
+            <h2 style={{ paddingTop: "2em" , fontFamily:"uni-sans"}}>Zubair De vries</h2>
+            <h4 style={{ color: "white" , fontFamily:"uni-sans" }}>Jr Web Developer</h4>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
-            <p style={{ fontSize:"20px", fontFamily:"system-ui"}}>
+            <p style={{ fontSize:"20px", fontFamily:"uni-sans"}}>
               Hi there, my name is Zubair I am 19 years old and this is my
               online portfolio . I would describe myself as a soft and gentle
               person , I'm always willing to help when I'm needed or even
@@ -31,9 +31,9 @@ class AboutMe extends Component {
               think of it as a kind of adventure
             </p>
 
-            <h4 style={{ color: "white" }}>Where my interest came from:</h4>
+            <h4 style={{ color: "white" , fontFamily:"uni-sans"}}>Where my interest came from:</h4>
             <hr style={{ borderTop: "3px solid white", width: "100%" }} />
-            <p style={{ fontSize:"20px" , fontFamily:"system-ui"}}>
+            <p style={{ fontSize:"20px" , fontFamily:"uni-sans"}}>
               I've never known how a person makes games or websites and I always
               wanted to find out , I did a tech support course last year but
               that didn't work out , i was interested in what they were doing

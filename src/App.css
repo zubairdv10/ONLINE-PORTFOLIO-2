@@ -157,6 +157,7 @@
 .font1 {
   font-size: 40px;
   color: white;
+  font-family:uni-sans;
 }
 
 
@@ -164,6 +165,7 @@
   font-size: 20px;
   color: white;
   text-align: left;
+  font-family:uni-sans;
 }
 
 
@@ -171,42 +173,47 @@
 .font1 p{
   font-size: 20px;
   color: white;
+  font-family: uni-sans;
 }
 
 .font4{
   font-size: 30px;
   color: white;
+  font-family: uni-sans;
 }
 
 .font4 p{
   font-size: 20px;
   color: white;
+  font-family: uni-sans;
 }
 
 .font2 {
   font-size: 25px;
   color: white;
+  font-family: uni-sans;
 }
 
 .font2 h4 {
   font-size: 25px;
   color: white;
-  text-align: left
+  text-align: left;
+  font-family: uni-sans;
 }
 
 .font2 p {
   font-size: 25px;
   color: white;
-  text-align: left
+  text-align: left;
+  font-family: uni-sans;
 }
-
-
-
 
 .font3 {
   font-size: 20px;
   color: white;
+  font-family: uni-sans;
 }
+
 .imgSize {
   height: 350px;
 }
@@ -222,4 +229,8 @@
   border-radius: 8px;
   background-color: green;
   color:white;
+}
+
+.letters {
+  font-family: uni-sans;
 }
