@@ -10,6 +10,7 @@ import {
   Button,
   CardText,
 } from "react-mdl";
+import turbo from "./Capture.PNG"
 
 class Projects extends Component {
   constructor(props) {
@@ -110,7 +111,7 @@ class Projects extends Component {
                 color: "black",
                 height: "280px",
                 background:
-                  "url(https://www.netclipart.com/pp/m/276-2768580_react-native-logo-png.png) center / cover",
+                <img src={turbo} alt="Avatar" className="turbo-chat"/>,
               }}
             >
               Chatting app
@@ -184,6 +185,13 @@ class Projects extends Component {
                 target="_blank"
               >
                 <Button colored>GitHub</Button>
+              </a>
+              <a
+                href="https://repl.it/talk/share/Lotto-Project/120317"
+                // eslint-disable-next-line
+                target="_blank"
+              >
+                <Button colored>Live Demo</Button>
               </a>
             </CardActions>
           </Card>

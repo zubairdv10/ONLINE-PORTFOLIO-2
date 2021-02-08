@@ -11,7 +11,7 @@ class MyEducation extends Component {
           </p>
         </Cell>
         <Cell col={8} className="font4">
-          <h4 style={{ marginTop: "0px" , fontFamily:"uni-sans" }}>{this.props.schoolName}</h4>
+          <h4 style={{ marginTop: "0px" , fontFamily:"uni-sans"}}>{this.props.schoolName}</h4>
         </Cell>
       </Grid>
     );

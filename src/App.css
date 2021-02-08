@@ -26,6 +26,10 @@
   width: 210px;
 }
 
+.turbo-chat{
+  width: fit-content;
+}
+
 .banner-text {
   background-color: black;
   opacity: 0.8;
